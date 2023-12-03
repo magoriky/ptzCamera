@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="transmission_block" params="joint_name">
+        <transmission name="tran1">
+          <type>transmission_interface/SimpleTransmission</type>
+          <joint name="${joint_name}">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+          </joint>
+          <actuator name="motor1">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+          </actuator>
+        </transmission>
+     </xacro:macro>
+    <xacro:transmission_block joint_name="base_cylinder_joint"/>
+    <xacro:transmission_block joint_name="lower_cylinder2_joint"/>
+<gazebo>
+    <plugin name="gazebo_ros_control" filename = "libgazebo_ros_control.so">
+        <robotNamespace>robot</robotNamespace>
+
+    </plugin>
+</gazebo>
+ 
+</robot>

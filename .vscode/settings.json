@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ricardo/Desktop/alfredo/devel/lib/python2.7/dist-packages",
+        "/home/ricardo/Desktop/hex2/devel/lib/python2.7/dist-packages",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ricardo/Desktop/alfredo/devel/lib/python2.7/dist-packages",
+        "/home/ricardo/Desktop/hex2/devel/lib/python2.7/dist-packages",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

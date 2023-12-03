@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find main)/config/ros_controllers2.yaml" command="load"/>
+
+  <!-- Load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" 
+    output="screen" ns="/ptz" args="joint1_effort_controller 
+                                          joint2_effort_controller"/>
+                                         
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <param name="publish_frequency" type="double" value="50.0" />
+    <remap from="/joint_states" to="/ptz/joint_states" />
+  </node>
+
+  <!-- <node name="rviz" pkg="rviz" type="rviz"/> -->
+
+</launch>

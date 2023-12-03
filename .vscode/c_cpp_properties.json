@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ricardo/Desktop/alfredo/devel/include/**",
+        "/home/ricardo/Desktop/hex2/devel/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/adl200_core/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/adl200_motor_driver/include/**",
+        "/home/ricardo/Desktop/sam/src/alfredo/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/can_handler/include/**",
+        "/home/ricardo/Desktop/ptzCamera/src/description/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/gps_collector/include/**",
+        "/home/ricardo/Desktop/hex2/src/hexa/include/**",
+        "/home/ricardo/Desktop/hex2/src/hexapod_gazebo/include/**",
+        "/home/ricardo/Desktop/imu_driver/src/imu/include/**",
+        "/home/ricardo/Desktop/ptzCamera/src/main/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/motor_driver/include/**",
+        "/home/ricardo/Desktop/alfredo/src/pan_tilt_ros/pan_tilt_driver/include/**",
+        "/home/ricardo/Desktop/hex2/src/ros_mastering/include/**",
+        "/home/ricardo/Desktop/hex2/src/syropod_highlevel_controller/include/**",
+        "/home/ricardo/Desktop/hex2/src/syropod_remote/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/test_tf/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/velocity_sender/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/waypoint/include/**",
+        "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/waypoint2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
