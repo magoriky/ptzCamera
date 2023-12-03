@@ -1,2 +1,2 @@
-description:main
+description:main:slidingmcontroller
 -DCATKIN_DEVEL_PREFIX=/home/ricardo/Desktop/ptzCamera/devel -DCMAKE_INSTALL_PREFIX=/home/ricardo/Desktop/ptzCamera/install -G Unix Makefiles

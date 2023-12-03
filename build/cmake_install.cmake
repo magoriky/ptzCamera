@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ricardo/Desktop/ptzCamera/build/gtest/cmake_install.cmake")
+  include("/home/ricardo/Desktop/ptzCamera/build/slidingmcontroller/cmake_install.cmake")
   include("/home/ricardo/Desktop/ptzCamera/build/description/cmake_install.cmake")
   include("/home/ricardo/Desktop/ptzCamera/build/main/cmake_install.cmake")
 

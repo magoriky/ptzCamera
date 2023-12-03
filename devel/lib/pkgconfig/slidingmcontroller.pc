@@ -1,0 +1,8 @@
+prefix=/home/ricardo/Desktop/ptzCamera/devel
+
+Name: slidingmcontroller
+Description: Description of slidingmcontroller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

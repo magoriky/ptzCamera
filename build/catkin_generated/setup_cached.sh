@@ -7,6 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ricardo/Desktop/ptzCamera/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/ricardo/Desktop/ptzCamera/build'
-export ROS_PACKAGE_PATH="/home/ricardo/Desktop/ptzCamera/src:$ROS_PACKAGE_PATH"
