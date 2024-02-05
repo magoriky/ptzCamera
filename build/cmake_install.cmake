@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ricardo/Desktop/ptzCamera/build/slidingmcontroller/cmake_install.cmake")
   include("/home/ricardo/Desktop/ptzCamera/build/description/cmake_install.cmake")
   include("/home/ricardo/Desktop/ptzCamera/build/main/cmake_install.cmake")
+  include("/home/ricardo/Desktop/ptzCamera/build/customplugins/cmake_install.cmake")
 
 endif()
 

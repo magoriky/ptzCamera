@@ -29,7 +29,8 @@
         "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/velocity_sender/include/**",
         "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/waypoint/include/**",
         "/home/ricardo/Desktop/code_for_github/rover_tesis_github/src/waypoint2/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/usr/include/gazebo-9/gazebo/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

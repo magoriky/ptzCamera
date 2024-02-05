@@ -26,15 +26,7 @@ def anglePublisherPhiTheta():
             publisherPhi.publish(msgPhi)
             publisherTheta.publish(msgTheta)
             rate.sleep()
-    
-    
-    with open("../phi.txt","r") as txtfile:
-        for line in txtfile.readlines():
-            msg.data = float(line)
-            publisherPhi.publish(msg)
-            rate.sleep()
         
-
 
 def callback(data):
     phi = data.position[0]
